@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'takieulong/golang-jenkins'
-        DOCKER_TAG = 'lts'
+        DOCKER_TAG = 'latest'
     }
 
     stages {
