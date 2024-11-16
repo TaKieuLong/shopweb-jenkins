@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'takieulong/golang-jenkins'
+        DOCKER_IMAGE = 'jenkins/jenkins'
         DOCKER_TAG = 'latest'
     }
 
