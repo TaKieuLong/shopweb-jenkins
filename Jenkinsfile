@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'jenkins/jenkins'
-        DOCKER_TAG = 'latest'
+        DOCKER_TAG = 'lts'
     }
 
     stages {
